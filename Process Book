@@ -1,5 +1,6 @@
-Date of entry:
-What I’ve worked on:
-What problems I encountered:
-What I learned:
-Which resources did I use:
+Date of entry: 16 Oct
+What I’ve worked on: set up MNE library, load raw MEG data, combine 2 runs, read bad segments of the data
+What problems I encountered: the plotting function of MNE is a bit stuck, the plot shows up but I could not inspect the plots well
+What I learned: load and utilise data paths, get information of the MEG data, and plot the raw MEG data
+Which resources did I use: MNE tutorials: https://mne.tools/stable/auto_tutorials/io/60_ctf_bst_auditory.html#tut-brainstorm-auditory; 
+https://mne.tools/stable/auto_tutorials/intro/10_overview.html#sphx-glr-auto-tutorials-intro-10-overview-py
