@@ -4,3 +4,9 @@ What problems I encountered: the plotting function of MNE is a bit stuck, the pl
 What I learned: load and utilise data paths, get information of the MEG data, and plot the raw MEG data
 Which resources did I use: MNE tutorials: https://mne.tools/stable/auto_tutorials/io/60_ctf_bst_auditory.html#tut-brainstorm-auditory; 
 https://mne.tools/stable/auto_tutorials/intro/10_overview.html#sphx-glr-auto-tutorials-intro-10-overview-py
+
+Date of entry: 7 Nov
+What I’ve worked on: change to a simpler dataset, inspect data
+What problems I encountered: the initial dataset involves too complex use of the library that feels overwhelming, so I shifted to a simpler dataset to get a better idea about the library
+What I learned: inspect details of the data, different usage of the channels
+Which resources did I use: MNE tutorials
