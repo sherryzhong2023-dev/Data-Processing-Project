@@ -10,3 +10,9 @@ What I’ve worked on: change to a simpler dataset, inspect data
 What problems I encountered: the initial dataset involves too complex use of the library that feels overwhelming, so I shifted to a simpler dataset to get a better idea about the library
 What I learned: inspect details of the data, different usage of the channels
 Which resources did I use: MNE tutorials
+
+Date of entry: 12 Nov
+What I’ve worked on: create epochs on different stimulus conditions, plot out averaged evoked responses, visualise differences between conditions
+What problems I encountered: The topomap layout with the central head and surrounding area was confusing at first.
+What I learned: compute and visualize evoked responses from epochs, interpret time-series and topographic plots, understand the meaning of the PSD plots, and relate them to brain activity localization.
+Which resources did I use: MNE tutorials
