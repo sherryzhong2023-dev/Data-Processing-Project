@@ -16,3 +16,9 @@ What I’ve worked on: create epochs on different stimulus conditions, plot out 
 What problems I encountered: The topomap layout with the central head and surrounding area was confusing at first.
 What I learned: compute and visualize evoked responses from epochs, interpret time-series and topographic plots, understand the meaning of the PSD plots, and relate them to brain activity localization.
 Which resources did I use: MNE tutorials
+
+Date of entry: 23 Nov
+What I’ve worked on: use cleaned data for evoked analysis, add analysis of epochs on auditory evoked fields
+What problems I encountered: the raw evoked field averages for the left and right stimulus looked very similar. I learned later that the similarity is expected due to bilateral brain activation; it is the difference wave that is the necessary tool to isolate the true contralateral effect.
+What I learned: ICA is a source separation technique used for noise removal, not primarily source localization.
+Which resources did I use: MNE-Python documentation (Epoching, Filtering, ICA tutorials)
