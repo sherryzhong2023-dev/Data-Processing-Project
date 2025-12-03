@@ -27,18 +27,18 @@ signal artifact tutorial: https://www.youtube.com/watch?v=VDqwfP0mlfU
 
 Date of entry: 25 Nov
 What I’ve worked on: completing the analysis of evoked responses by adding the plots for visualisation
-What problems I encountered: .
-What I learned: .
+What problems I encountered: the difference wave plot appears blank.
+What I learned: the topomap of the difference wave shows up correctly, it could be.
 Which resources did I use: MNE tutorials
 
 Date of entry: 27 Nov
 What I’ve worked on: improved documentation of the notebook for presentation, such as adding more explanations for technical terms to connect the code for better understanding
 What problems I encountered: ensure the scientific vocabularies and the abbreviations are clearly explained.
 What I learned: my understanding of each step of the analysis of the pipeline was strengthened, and I have a clearer picture of the details within the preprocessing
-Which resources did I use: MNE tutorials, google search, EEG tutorial: https://www.youtube.com/watch?v=Bmt89hHyxuM
+Which resources did I use: MNE tutorials, Google search, EEG tutorial: https://www.youtube.com/watch?v=Bmt89hHyxuM
 
 Date of entry: 29 Nov
-What I’ve worked on: continue to improve documentation of the notebook for presentation
+What I’ve worked on: continue to improve the documentation of the notebook for presentation
 What problems I encountered: ensure the scientific vocabularies and the abbreviations are clearly explained.
 What I learned: going through the theoretical knowledge of EEG and ICA allows me to have a bigger picture of the whole analysis
 Which resources did I use:
@@ -46,3 +46,9 @@ ICA tutorial: https://www.youtube.com/watch?v=AKCK7DXa0gY
 Preprocessing tutorial: https://www.youtube.com/watch?v=JMB9nZNGVyk
 EEG tutorial: https://www.youtube.com/watch?v=Bmt89hHyxuM
 VEP: https://www.youtube.com/watch?v=zqdmWJHdzdA
+
+Date of entry: 3 Dec
+What I’ve worked on: 
+What problems I encountered: 
+What I learned: 
+Which resources did I use:
