@@ -1,24 +1,48 @@
 Date of entry: 16 Oct
 What I’ve worked on: set up MNE library, load raw MEG data, combine 2 runs, read bad segments of the data
-What problems I encountered: the plotting function of MNE is a bit stuck, the plot shows up but I could not inspect the plots well
-What I learned: load and utilise data paths, get information of the MEG data, and plot the raw MEG data
-Which resources did I use: MNE tutorials: https://mne.tools/stable/auto_tutorials/io/60_ctf_bst_auditory.html#tut-brainstorm-auditory; 
+What problems I encountered: the plotting function of MNE does not work properly, the plot shows up, but I could not inspect the plot well
+What I learned: load and utilise data paths, get information about the MEG data, and plot the raw MEG data
+Which resources did I use: MNE tutorials
+https://mne.tools/stable/auto_tutorials/io/60_ctf_bst_auditory.html#tut-brainstorm-auditory; 
 https://mne.tools/stable/auto_tutorials/intro/10_overview.html#sphx-glr-auto-tutorials-intro-10-overview-py
 
 Date of entry: 7 Nov
 What I’ve worked on: change to a simpler dataset, inspect data
-What problems I encountered: the initial dataset involves too complex use of the library that feels overwhelming, so I shifted to a simpler dataset to get a better idea about the library
-What I learned: inspect details of the data, different usage of the channels
+What problems I encountered: the initial dataset involves too complex use of the library, which feels overwhelming, so I shifted to a simpler dataset to get a better idea about the library
+What I learned: inspect the details of the data, different usage of the channels
 Which resources did I use: MNE tutorials
 
 Date of entry: 12 Nov
-What I’ve worked on: create epochs on different stimulus conditions, plot out averaged evoked responses, visualise differences between conditions
-What problems I encountered: The topomap layout with the central head and surrounding area was confusing at first.
+What I’ve worked on: begin analysis pipelines. create epochs on different stimulus conditions, plot out averaged evoked responses, and visualise differences between conditions
+What problems I encountered: The topomap layout with the central head and surrounding area was confusing at first, but I learnt that it can be interpreted as a static snapshot of the activity across the scalp.
 What I learned: compute and visualize evoked responses from epochs, interpret time-series and topographic plots, understand the meaning of the PSD plots, and relate them to brain activity localization.
-Which resources did I use: MNE tutorials
+Which resources did I use: MNE tutorials, Topographical mapping tutorial: https://www.youtube.com/watch?v=2edwDBSPLFs&t=24s
 
 Date of entry: 23 Nov
 What I’ve worked on: use cleaned data for evoked analysis, add analysis of epochs on auditory evoked fields
-What problems I encountered: the raw evoked field averages for the left and right stimulus looked very similar. I learned later that the similarity is expected due to bilateral brain activation; it is the difference wave that is the necessary tool to isolate the true contralateral effect.
+What problems I encountered: the raw evoked field averages for the left and right stimuli looked very similar. I learned later that the similarity is expected due to bilateral brain activation; it is the difference wave that is the necessary tool to isolate the true contralateral effect.
 What I learned: ICA is a source separation technique used for noise removal, not primarily source localization.
-Which resources did I use: MNE-Python documentation (Epoching, Filtering, ICA tutorials)
+Which resources did I use: MNE-Python documentation (Epoching, Filtering, ICA tutorials), EEG tutorial: https://www.learningeeg.com/montages-and-technical-components
+signal artifact tutorial: https://www.youtube.com/watch?v=VDqwfP0mlfU
+
+Date of entry: 25 Nov
+What I’ve worked on: completing the analysis of evoked responses by adding the plots for visualisation
+What problems I encountered: .
+What I learned: .
+Which resources did I use: MNE tutorials
+
+Date of entry: 27 Nov
+What I’ve worked on: improved documentation of the notebook for presentation, such as adding more explanations for technical terms to connect the code for better understanding
+What problems I encountered: ensure the scientific vocabularies and the abbreviations are clearly explained.
+What I learned: my understanding of each step of the analysis of the pipeline was strengthened, and I have a clearer picture of the details within the preprocessing
+Which resources did I use: MNE tutorials, google search, EEG tutorial: https://www.youtube.com/watch?v=Bmt89hHyxuM
+
+Date of entry: 29 Nov
+What I’ve worked on: continue to improve documentation of the notebook for presentation
+What problems I encountered: ensure the scientific vocabularies and the abbreviations are clearly explained.
+What I learned: going through the theoretical knowledge of EEG and ICA allows me to have a bigger picture of the whole analysis
+Which resources did I use:
+ICA tutorial: https://www.youtube.com/watch?v=AKCK7DXa0gY
+Preprocessing tutorial: https://www.youtube.com/watch?v=JMB9nZNGVyk
+EEG tutorial: https://www.youtube.com/watch?v=Bmt89hHyxuM
+VEP: https://www.youtube.com/watch?v=zqdmWJHdzdA
