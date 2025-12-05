@@ -27,8 +27,8 @@ signal artifact tutorial: https://www.youtube.com/watch?v=VDqwfP0mlfU
 
 Date of entry: 25 Nov
 What I’ve worked on: completing the analysis of evoked responses by adding the plots for visualisation
-What problems I encountered: the difference wave plot appears blank.
-What I learned: the topomap of the difference wave shows up correctly, it could be.
+What problems I encountered: the interpretation of the topomaps for the difference wave
+What I learned: evoked responses are averaged to cancel out shared background noises, and difference wave cancels out the shared activities by ipsilateral and contralateral processing
 Which resources did I use: MNE tutorials
 
 Date of entry: 27 Nov
@@ -48,7 +48,16 @@ EEG tutorial: https://www.youtube.com/watch?v=Bmt89hHyxuM
 VEP: https://www.youtube.com/watch?v=zqdmWJHdzdA
 
 Date of entry: 3 Dec
-What I’ve worked on: 
-What problems I encountered: 
-What I learned: 
-Which resources did I use:
+What I’ve worked on: understanding and adding explanations for the final topomaps
+What problems I encountered: the auditory topomaps does not show contralaterality as clearly as that in visual topomaps
+What I learned: contralateral processing in auditory processing is not as strong as that in visual processing, so the topomaps I got are sensible
+Which resources did I use: 
+https://doi.org/10.3389/fnsys.2022.892198
+https://pubmed.ncbi.nlm.nih.gov/25346487/
+
+Date of entry: 5 Dec
+What I’ve worked on: finalise the evoked response analysis by plotting out the epochs
+What problems I encountered: the sensor pairs need to be picked carefully to match the processing cortices to clearly show the epochs
+What I learned: plotting out the epochs is an essential quality check before averaging, confirming that the desired brain signal is present and consistent across all individual trials
+Which resources did I use: MNE tutorial
+
